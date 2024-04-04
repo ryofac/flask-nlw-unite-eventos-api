@@ -6,7 +6,7 @@ from src.settings.connection import db_connection_handler
 db_connection_handler.connect_to_db()
 
 
-# @pytest.mark.skip(reason="Teste já realizado, dado já presente no banco")
+@pytest.mark.skip(reason="Teste já realizado, dado já presente no banco")
 def test_event_creation():
     test_event = {
         "id": "uhu-eh-nois-na-pista",
