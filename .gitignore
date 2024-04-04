@@ -1,6 +1,5 @@
 **/py_cache
 .venv
-storage.db
 setup.cfg
 .pytest_cache
 .vscode

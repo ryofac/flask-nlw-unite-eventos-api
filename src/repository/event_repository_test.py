@@ -6,7 +6,7 @@ from src.settings.connection import db_connection_handler
 db_connection_handler.connect_to_db()
 
 
-@pytest.mark.skip(reason="Teste já realizado, dado já presente no banco")
+# @pytest.mark.skip(reason="Teste já realizado, dado já presente no banco")
 def test_event_creation():
     test_event = {
         "id": "uhu-eh-nois-na-pista",
@@ -20,6 +20,6 @@ def test_event_creation():
 
 def test_get_event_by_id():
     event_repository = EventRepository()
-    event_id = "uhu-eh-nois-na-pista"
+    event_id = "uhu-eh-nois-na-pista-123"
     response = event_repository.get_event_by_id(event_id=event_id)
     print(response)
