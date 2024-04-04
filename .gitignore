@@ -1,3 +1,4 @@
 **/py_cache
 .venv
 storage.db
+setup.cfg
