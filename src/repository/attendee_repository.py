@@ -1,8 +1,8 @@
 from sqlite3 import IntegrityError
 from typing import Dict
 
-from src.entities.attendee import Attendee
-from src.entities.event import Event
+from src.models.attendee import Attendee
+from src.models.event import Event
 from src.settings.connection import db_connection_handler
 
 

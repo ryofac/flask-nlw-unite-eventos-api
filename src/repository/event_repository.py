@@ -2,7 +2,7 @@ from ast import Dict
 
 from sqlalchemy.exc import IntegrityError
 
-from src.entities.event import Event
+from src.models.event import Event
 from src.settings.connection import db_connection_handler
 
 
